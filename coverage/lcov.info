@@ -7,12 +7,12 @@ FN:20,guess
 FNF:4
 FNH:4
 FNDA:1,start
-FNDA:23,(anonymous_1)
+FNDA:22,(anonymous_1)
 FNDA:5,setSecret
 FNDA:5,guess
 DA:4,1
 DA:5,1
-DA:6,23
+DA:6,22
 DA:7,1
 DA:8,3
 DA:10,1
