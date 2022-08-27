@@ -5,7 +5,7 @@ const codeBreaker = require('./codeBreaker');
 const app = express();
 app.use(express.json())
 app.use(cors());
-const port = 4000;
+const port = app.listen(process.env.PORT || 3000);;
 
 app.get("/start", (req, res) => {
   const secret = codeBreaker.start();
